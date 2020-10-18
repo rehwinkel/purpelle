@@ -1,0 +1,9 @@
+[X-GNOME-Metatheme]
+Name=Purpelle
+Type=X-GNOME-Metatheme
+Comment=There is only one (Forked from Adwaita)
+Encoding=UTF-8
+GtkTheme=Purpelle
+IconTheme=Purpelle
+CursorTheme=Purpelle
+CursorSize=24
