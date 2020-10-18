@@ -2964,6 +2964,8 @@ checkbutton.text-button, radiobutton.text-button {
   }
 }
 
+$checkbox_background: $bg_color;
+
 check,
 radio {
   margin: 0 4px;
@@ -2990,7 +2992,7 @@ radio {
 
   & {
     // for unchecked
-    $_c: if($variant=='light', white, $bg_color);
+    $_c: if($variant=='light', $checkbox_background, $bg_color);
 
     @each $state, $t in ("", "normal"),
                         (":hover", "hover"),
